@@ -1,0 +1,26 @@
+{
+  "name": "backapi",
+  "version": "1.0.0",
+  "description": "project api lumne",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zayro/BackApi.git"
+  },
+  "keywords": [
+    "lumen",
+    "api"
+  ],
+  "author": "marlon zayro arias vargas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zayro/BackApi/issues"
+  },
+  "homepage": "https://github.com/zayro/BackApi#readme"
+}

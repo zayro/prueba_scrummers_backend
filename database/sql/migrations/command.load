@@ -1,0 +1,11 @@
+ LOAD DATABASE
+      FROM mysql://username:password@host/gitlabhq_production
+      INTO postgresql://gitlab-psql@unix://var/opt/gitlab/postgresql:/gitlabhq_production
+
+ WITH include no drop, truncate, disable triggers, create no tables,
+      create no indexes, preserve index names, no foreign keys,
+      data only
+
+ ALTER SCHEMA 'gitlabhq_production' RENAME TO 'public'
+
+ ;
